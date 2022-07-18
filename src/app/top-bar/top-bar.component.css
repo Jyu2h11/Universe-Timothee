@@ -1,0 +1,62 @@
+header{
+    position: fixed;
+    width: 100%;
+    padding: 25px;
+    padding-bottom: 21px;
+    background: black;
+    color: #eebb14;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.title{
+    position: absolute;
+    font-size: 30px;
+    top: 5px;
+}
+
+.categories{
+    position: absolute;
+    right: 700px;
+    font-size: 24px;
+    top: 10px;
+}
+
+#cat1, #cat2 {
+    display: inline;
+    padding: 10px 25px;
+}
+
+#cat1:hover, #cat2:hover {
+    background: #eebb14;
+    color: black;
+}
+
+/**Side menu 1**/
+
+#infos, #mecas {
+    background: rgb(79, 79, 79);
+    color: #eebb14;
+    font-size: 20px;
+    position: fixed;
+    width: 160px;
+    height: 100%;
+    left: -10px;
+    top: -10px;
+    display: none;
+}
+
+.i1, .i2, .i3, .m1, .m2, .m3, .m4, .m5, .m6 {
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.i1, .m1 {
+    padding-top: 72px;
+}
+
+.i1:hover, .i2:hover, .i3:hover, .m1:hover, .m2:hover, .m3:hover, .m4:hover, .m5:hover, .m6:hover {
+    background: #eebb14;
+    color: rgb(79, 79, 79);
+}
