@@ -1,0 +1,44 @@
+html{
+    background-color: rgba(193, 166, 71, 0.671);
+    width: 101%;
+}
+
+body {
+    padding-top: 40px;
+    padding-left: 170px;
+}
+
+div {
+    padding-bottom: 15px;
+    padding-right: 5px;
+    padding-left: 45px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: normal;
+    padding-left: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    padding-left: 30px;
+    font-family: Helvetica, sans-serif;
+}
+
+.ph {
+    vertical-align: sub;
+    width: 4%;
+}
+
+.nv {
+    vertical-align: sub;
+    width: 3%;
+}

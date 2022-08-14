@@ -20,7 +20,7 @@ header{
     position: absolute;
     right: 700px;
     font-size: 24px;
-    top: 10px;
+    top: 8.5px;
 }
 
 #cat1, #cat2 {
@@ -35,13 +35,18 @@ header{
 
 /**Side menu 1**/
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 #infos, #mecas {
     background: rgb(79, 79, 79);
     color: #eebb14;
     font-size: 20px;
     position: fixed;
     width: 160px;
-    height: 100%;
+    height: 110%;
     left: -10px;
     top: -10px;
     display: none;
