@@ -4,23 +4,56 @@
         <div class="title"><a routerLink="/">Universe</a></div>
 
         <div class="categories">
-            <div id="cat1" (click)="getInfo()">Informations & Lore</div>
-            <div id="cat2" (click)="getMeca()">Mécaniques</div>
+            <input type="radio" id="infocontrol" name="control"/>
+            <label class="btn" for="infocontrol">
+                <div id="cat1" (click)="getInfo()">Informations & Lore</div>
+            </label>
+            <input type="radio" id="mecacontrol" name="control"/>
+            <label class="btn" for="mecacontrol">
+                <div id="cat2" (click)="getMeca()">Mécaniques</div>
+            </label>
         </div>
     </header>
     <body>
         <div id="infos">
-            <div class="i1">Cartes</div>
-            <div class="i2">Histoire</div>
-            <div class="i3">Races</div>
+            <input type="radio" id="cartescontrol" name="control1"/>
+            <label class="btn" for="cartescontrol">
+                <div class="i1">Cartes</div>
+            </label>
+            <input type="radio" id="histcontrol" name="control1"/>
+            <label class="btn" for="histcontrol">
+                <div class="i2">Histoire</div>
+            </label>
+            <input type="radio" id="racescontrol" name="control1"/>
+            <label class="btn" for="racescontrol">
+                <div class="i3">Races</div>
+            </label>
         </div>
         <div id="mecas">
-            <div class="m1">Classes</div>
-            <div class="m2">Armes</div>
-            <div class="m3"><a routerLink="/magic">Magies</a></div>
-            <div class="m4">Postures</div>
-            <div class="m5">Techniques</div>
-            <div class="m6">Reliques</div>
+            <input type="radio" id="classcontrol" name="control2"/>
+            <label class="btn" for="classcontrol">
+                <div class="m1">Classes</div>
+            </label>
+            <input type="radio" id="armescontrol" name="control2"/>
+            <label class="btn" for="armescontrol">
+                <div class="m2">Armes</div>
+            </label>
+            <input type="radio" id="magiescontrol" name="control2"/>
+            <label class="btn" for="magiescontrol" routerLink="/magic">
+                <div class="m3">Magies</div>
+            </label>
+            <input type="radio" id="postcontrol" name="control2"/>
+            <label class="btn" for="postcontrol">
+                <div class="m4">Postures</div>
+            </label>
+            <input type="radio" id="techcontrol" name="control2"/>
+            <label class="btn" for="techcontrol">
+                <div class="m5">Techniques</div>
+            </label>
+            <input type="radio" id="reliqcontrol" name="control2"/>
+            <label class="btn" for="reliqcontrol">
+                <div class="m6">Reliques</div>
+            </label>
         </div>
     </body>
 </html>
