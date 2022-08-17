@@ -10,15 +10,21 @@ body {
     overflow: hidden;
 }
 
+.toc_list {
+    padding-left: 1em;
+}
+
 #toc_container {
     position: fixed;
     right: 0;
-    background: none repeat scroll 0 0;
-    display: table;
     margin-bottom: 1em;
     width: auto;
     padding-right: 1em;
     border-left: 1px solid rgba(8, 8, 8, 0.316);
+    background-color: rgba(255, 255, 255, 0.177);
+    font-weight: bold;
+    text-align: left;
+    height: 100%;
 }
 
 #toc_container li, #toc_container ul, #toc_container ul li{
@@ -27,7 +33,7 @@ body {
 
 a {
     text-decoration: none;
-    color: rgba(85, 85, 85, 0.792);
+    color: rgb(98, 101, 126);
 }
 
 a:hover {
@@ -42,6 +48,7 @@ div:not(#toc_container) {
     padding-bottom: 0.9375em;
     padding-right: 13em;
     padding-left: 2.8125em;
+    font-family: 'EB Garamond', sans-serif;
 }
 
 h1 {
@@ -60,7 +67,7 @@ h2 {
 h3 {
     font-size: 1.25em;
     padding-left: 1.875em;
-    font-family: 'EB Garamond';
+    font-family:'Times New Roman', Times, serif;
 }
 
 .ph {
