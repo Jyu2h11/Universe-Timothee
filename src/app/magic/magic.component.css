@@ -10,9 +10,37 @@ body {
     overflow: hidden;
 }
 
-div {
+#toc_container {
+    position: fixed;
+    right: 0;
+    background: none repeat scroll 0 0;
+    display: table;
+    margin-bottom: 1em;
+    width: auto;
+    padding-right: 1em;
+    border-left: 1px solid rgba(8, 8, 8, 0.316);
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(85, 85, 85, 0.792);
+}
+
+a:hover {
+    color: black;
+}
+
+#toc_container li {
+    padding-bottom: 0.45em;
+}
+
+div:not(#toc_container) {
     padding-bottom: 0.9375em;
-    padding-right: 0.3125em;
+    padding-right: 13em;
     padding-left: 2.8125em;
 }
 
