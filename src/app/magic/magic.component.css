@@ -2,6 +2,7 @@ html{
     background-color: rgba(193, 166, 71, 0.671);
     margin: -0.5em;
     width: auto;
+    scroll-behavior: smooth;
 }
 
 body {
