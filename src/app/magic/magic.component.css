@@ -2,13 +2,16 @@ html{
     background-color: rgba(193, 166, 71, 0.671);
     margin: -0.5em;
     width: auto;
-    scroll-behavior: smooth;
 }
 
 body {
     padding-top: 2.5em;
     padding-left: 10.625em;
-    overflow: hidden;
+    overflow-y: hidden;
+}
+
+html:focus-within, html, * {
+    -webkit-scroll-behavior: smooth !important;
 }
 
 .toc_list {
@@ -33,16 +36,15 @@ body {
 }
 
 a {
+    display: inline-block;
     text-decoration: none;
     color: rgb(98, 101, 126);
+    line-height: 1.5em;
 }
 
 a:hover {
     color: black;
-}
-
-#toc_container li {
-    padding-bottom: 0.45em;
+    text-decoration: underline;
 }
 
 div:not(#toc_container) {
@@ -79,4 +81,9 @@ h3 {
 .nv {
     vertical-align: sub;
     width: 3%;
+}
+
+section:nth-of-type(1) {
+    background: right 2rem top 2rem / 15em var(--linkheight) no-repeat linear-gradient(#ccc, #ccc);
+    background-attachment: fixed;
 }
