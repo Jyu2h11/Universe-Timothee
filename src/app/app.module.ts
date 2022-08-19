@@ -7,19 +7,23 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { MagicComponent } from './magic/magic.component';
 import { PostureComponent } from './posture/posture.component';
+import { ArmesComponent } from './armes/armes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopBarComponent,
     MagicComponent,
-    PostureComponent
+    PostureComponent,
+    ArmesComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     RouterModule.forRoot([
-      { path: 'magic', component: MagicComponent }
+      { path: 'magic', component: MagicComponent },
+      { path: 'posture', component: PostureComponent},
+      { path: 'arme', component: ArmesComponent}
     ])
   ],
   providers: [],
