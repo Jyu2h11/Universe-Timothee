@@ -1,0 +1,79 @@
+html{
+    background-color: rgba(193, 166, 71, 0.671);
+    margin: -0.5em;
+    width: auto;
+}
+
+body {
+    padding-top: 2.5em;
+    padding-left: 10.625em;
+    overflow-y: hidden;
+}
+
+html:focus-within, html, * {
+    scroll-behavior: smooth !important;
+}
+
+.toc_list {
+    padding-left: 1em;
+}
+
+#toc_container {
+    position: fixed;
+    right: 0;
+    margin-bottom: 1em;
+    width: auto;
+    padding-right: 1em;
+    border-left: 1px solid rgba(8, 8, 8, 0.316);
+    background-color: rgba(255, 255, 255, 0.177);
+    font-weight: bold;
+    text-align: left;
+    height: 100%;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(98, 101, 126);
+    line-height: 1.5em;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+div:not(#toc_container) {
+    padding-bottom: 0.9375em;
+    padding-right: 13em;
+    padding-left: 2.8125em;
+    font-family: 'EB Garamond', sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.875em;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: normal;
+    padding-left: 0.9375em;
+}
+
+.ph {
+    vertical-align: sub;
+    width: 4.5%;
+    padding-left: -2em;
+}
+
+section:nth-of-type(1) {
+    background: right 2rem top 2rem / 15em var(--linkheight) no-repeat linear-gradient(#ccc, #ccc);
+    background-attachment: fixed;
+}

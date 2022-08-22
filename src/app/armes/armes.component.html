@@ -4,101 +4,169 @@
 <body>
     <nav id="toc_container">
         <ul class="toc_list">
-            <li><a href="posture#infant">Armes</a>
+            <li><a href="arme#armes">Armes</a>
                 <ul>
-                    <li><a href="posture#infant-corps">Combat au corps à corps</a></li>
-                    <li><a href="posture#infant-distance">Combat à distance</a></li>
-                    <li><a href="posture#infant-magie">Utilisateurs de magie</a></li>
+                    <li><a href="arme#armes-une">Armes à une main</a></li>
+                    <li><a href="arme#armes-deux">Armes à deux mains</a></li>
+                    <li><a href="arme#armes-distance">Armes à distance</a></li>
+                    <li><a href="arme#armes-bouclier">Boucliers</a></li>
+                    <li><a href="arme#armes-soin">Bâton de soin</a></li>
+                    <li><a href="arme#armes-types">Types d'armes</a></li>
                 </ul>
             </li>
-            <li><a href="posture#cavalerie">Postures de cavalerie</a>
-                <ul>
-                    <li><a href="posture#caval-corps">Combat au corps à corps</a></li>
-                    <li><a href="posture#caval-distance">Combat à distance</a></li>
-                    <li><a href="posture#caval-magie">Utilisateurs de magie</a></li>
-                    <li><a href="posture#caval-hybride">Combat hybride</a></li>
-                </ul>
-            </li>
+            <li><a href="arme#armures">Armures</a></li>
         </ul>
     </nav>
     <div class="just-all">
-        <section id="infanterie">
-            <h1> ARMES A FAIRE</h1>
-            <section id="infant-corps">
-                <h2>Combat au corps à corps</h2>
+        <section id="armes">
+            <h1>Armes</h1>
+            <section id="armes-une">
+                <h2>Armes à une main</h2>
                 <div>
-                    <img class="ph" src="assets/postures/Posture_Offensif.png">&nbsp;<u>Offensif</u> : Bonus de 10 à tous les jets d'attaques, permet la charge, malus de 10 à la parade
-                    et à l'esquive, plus 1 aux dégâts.
+                    <u>Dague</u> : D6 parade impossible, ignore l'armure (assassin+ninja seulement). Peut être équipé
+                    sans restriction.
                 </div>
                 <div>
-                    <img class="ph" src="assets/postures/Posture_Defensif.png">&nbsp;<u>Défensif</u> : Bonus de 10 à la parade et à l'esquive, charge impossible, bonus de 1 à la défense
-                    et résistance. Seul les dégâts de l'arme sont pris en compte.
+                    <u>Stylet</u> : D4 parade impossible. Inflige 2 de dégâts pendant 2 tours après une blessure.
+                </div>
+                <div>
+                    <u>Épée</u> : D8, parade possible, possibilité de la prendre à l'envers à deux mains pour attaquer
+                    avec un D6 ignore l'armure.
+                </div>
+                <div>
+                    <u>Épée courbe (cimeterre/katana)</u> : D8 de dégâts, inflige 2 dégâts en plus en cas de charge.
+                    Malus de 10 à la parade.
+                </div>
+                <div>
+                    <u>Rapière</u> : D8, parade impossible mais donne un bonus de 10 à l’esquive et ne se déplace pas en
+                    esquivant, ignore un point d’armure.
+                </div>
+                <div>
+                    <u>Hache</u> : D8, parade possible malus 10, ignore deux points d'armure.
+                </div>
+                <div>
+                    <u>Lance</u> : D8, parade impossible, +5 de dégâts contre charge.
+                </div>
+                <div>
+                    <u>Marteau/masse</u> : D8, ignore l'armure, pas de dégâts supplémentaires en cas de charge.
+                </div>
+                <div>
+                    <u>Fléau à une main</u> : D8, parade impossible, ignore l'armure, ignore 15 points de parade de la
+                    cible.
+                </div>
+                <div>
+                    <u>Bâton de soin (utilisé comme arme)</u> : D4, parade impossible, ignore l'armure.
                 </div>
             </section>
-            <section id="infant-distance">
-                <h2>Combat à distance</h2>
+            <section id="armes-deux">
+                <h2>Armes à deux mains</h2>
                 <div>
-                    <img class="ph" src="assets/postures/Posture_escarmouche.png">&nbsp;<u>Escarmouche</u> : Bonus de 10 à l'esquive, malus de 10 pour être touché par les attaques
-                    d'opportunités, malus de 5 à l'attaque.
+                    <u>Claymore</u> : D10, parade possible.
                 </div>
                 <div>
-                    <u>Tir précis</u> : Bonus de 10 aux jets d'attaque, plus 1 aux dégâts, malus de 10 à l'esquive.
+                    <u>Hallebarde</u> : D12 parade possible malus 10, +5 de dégâts contre charge.
+                </div>
+                <div>
+                    <u>Hache à deux mains</u> : D10, parade possible malus 10, ignore 2 pts d'armure.
+                </div>
+                <div>
+                    <u>Marteau/masse à deux mains</u> : D10, ignore l'amure, pas de dégâts supplémentaires en cas de
+                    charge.
+                </div>
+                <div>
+                    <u>Fléau à deux mains</u> : D10, parade impossible, ignore l'armure, malus de 15 à la parade.
+                </div>
+                <div>
+                    <u>Bâton de combat</u> : D6, parade impossible, ignore l'armure.
                 </div>
             </section>
-            <section id="infant-magie">
-                <h2>Utlisateurs de magie</h2>
+            <section id="armes-distance">
+                <h2>Armes à distance</h2>
                 <div>
-                    <u>Furie magique</u> : Bonus de 10 aux jets de magie, bonus de 1 aux dégâts/soins/pvs de bouclier,
-                    -10 parade/esquive.
+                    <u>Arc</u> : D8, +5 de dégâts contre unité aérienne.
                 </div>
                 <div>
-                    <u>Éveil maximal</u> : Possibilité de lancer un sort de niveau 1 ne faisant pas de dégâts en début
-                    de tour ennemi, donne la possibilité d'esquiver et 5 d'esquive.
+                    <u>Arc elfe</u> : D10, +5 de dégâts contre unité aérienne.
+                </div>
+                <div>
+                    <u>Arbalète</u> : D10, +5 de dégâts, ignore 3 points d'armure, rechargement nécessaire.
+                </div>
+                <div>
+                    <u>Arbalète à une main</u> : D8 +5 de dégâts contre unité aérienne, ignore 1 points d'armure.
+                </div>
+                <div>
+                    <u>Fronde</u> : D6, ignore l'armure.
+                </div>
+                <div>
+                    <u>Fusil</u> : D8, ignore 1 point d'armure, rechargement nécessaire, inflige D10 de dégât au moral.
+                </div>
+                <div>
+                    <u>Javelot</u> : D8 ignore 1 point d'armure, munitions limitées, portée faible.
+                </div>
+                <div>
+                    <u>Hache de lancer</u> : D10 ignore 1 point d'armure, munitions limitées, portée faible.
+                </div>
+            </section>
+            <section id="armes-bouclier">
+                <h2>Boucliers</h2>
+                <div>
+                    <u>Petit bouclier</u> : Peut être utilisé en même temps que certaines armes à deux mains, ne subit
+                    pas de malus d'attaques successives.
+                </div>
+                <div>
+                    <u>Bouclier</u> : Bonus de 10 à la parade, ne subit pas de malus d'attaques successives.
+                </div>
+                <div>
+                    <u>Grand bouclier</u> : Bonus de 20 à la parade, ne subit pas de malus d'attaques successives,
+                    charge impossible.
+                </div>
+                <div>
+                    <u>Mains nues</u> : N'a pas de dé de dégât, ne prend donc en compte que l'expertise, les bonus de
+                    dégâts liés au physique et la posture. Deux modes d'attaque : Déluge de coups : inflige un D4
+                    attaques, inflige 5 de dégâts maximums. Attaque puissante : double les dégâts infligés et ignore un
+                    point d'armure, inflige 10 de dégâts maximums.
+                    <br>
+                    N'est pas sujet à des malus en cas d'attaque ciblant un membre précis.
+                </div>
+            </section>
+            <section id="armes-soin">
+                <h2>Bâton de soin</h2>
+                <div>
+                    <u>Bâton de soin</u> : Soigne un D8 pvs ou dissipe gel, poison, paralysie, brûlure. Peut être
+                    utilisé sur soi-même.
+                </div>
+            </section>
+            <section id="armes-types">
+                <h2>Types d’armes</h2>
+                <div>
+                    <u>Armes normales</u> : Dé de dégât.
+                </div>
+                <div>
+                    <u>Armes en acier trempé ou équivalent</u> : Moitié de dégâts fixes, le reste sur un dé.
+                </div>
+                <div>
+                    <u>Arme en acier damassé</u> : Dégâts fixe.
                 </div>
             </section>
         </section>
 
-        <section id="cavalerie">
-            <h1>Postures de cavalerie</h1>
-            <section id="caval-corps">
-                <h2>Combat au corps à corps</h2>
-                <div>
-                    <u>Charge</u> : Ajoute un D4+le nombre de point de défense de l'armure aux dégâts, donne +15 pour
-                    charger et +5 pour toucher. Les ennemis sur la route de la charge subissent un D4+le nombre de point
-                    de défense de l'armure du cavalier (ne peut augmenter). Parade et esquive impossible, -1 à la
-                    défense et à la résistance.
-                </div>
-                <div>
-                    <u>Contact</u> : Malus de 2 aux dégâts, bonus de 5 pour parer et esquiver, -1 aux dégâts subis.
-                </div>
-            </section>
-            <section id="caval-distance">
-                <h2>Combat à distance</h2>
-                <div>
-                    <u>Tir en cercle</u> : Bonus de 2 aux dégâts, bonus de 10 à l'esquive, malus de 5 pour toucher. Le
-                    joueur ne peut se déplacer librement dans cette posture et elle ne peut être maintenue pour plus de
-                    3 tours.
-                </div>
-            </section>
-            <section id="caval-magie">
-                <h2>Utilisateurs de magie</h2>
-                <div>
-                    <u>Défenseur</u> : +1 à la défense et à la résistance des alliés adjacents et 1 pv soigné par tour
-                    (joueur exclus, non cumulable). -5 pour lancer des sorts.
-                </div>
-                <div>
-                    <u>Mobilité exceptionnelle</u> : Permet de lancer deux sorts le même tour (le deuxième doit coûter
-                    moins de mana que le premier), -10 pour lancer des sorts.
-                </div>
-            </section>
-            <section id="caval-hybride">
-                <h2>Combat hybride</h2>
-                <div>
-                    <u>Harcèlement</u> : Malus de 2 aux dégâts, donne un malus de 5 dans toutes les stats à l'ennemi
-                    touché et un malus de 1 aux dégâts. Le joueur s'il se fait attaquer subi un D4 de dégât en plus.
-                    Bonus de 5 à l'esquive.
-                </div>
-            </section>
+        <section id="armures">
+            <h1>Armures</h1>
+            <div>
+                <u>Armure légère</u> : 1 point de défenses physiques, 4 points de résistances magiques.
+            </div>
+            <div>
+                <u>Armure intermédiaire</u> : 2 points de défenses physiques, 3 points de résistances magiques.
+            </div>
+            <div>
+                <u>Armure lourde</u> : 3 points de défenses physiques, 2 points de résistances magiques.
+            </div>
+            <div>
+                <u>Armure très lourde</u> : 4 points de défenses physiques, 1 point de résistance.
+            </div>
+            <div>
+                Une amélioration d’armure permet de gagner au choix un point de défense ou un point de résistance.
+            </div>
         </section>
     </div>
 </body>

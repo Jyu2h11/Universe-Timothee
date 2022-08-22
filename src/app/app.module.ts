@@ -8,6 +8,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { MagicComponent } from './magic/magic.component';
 import { PostureComponent } from './posture/posture.component';
 import { ArmesComponent } from './armes/armes.component';
+import { TechniqueComponent } from './technique/technique.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ArmesComponent } from './armes/armes.component';
     TopBarComponent,
     MagicComponent,
     PostureComponent,
-    ArmesComponent
+    ArmesComponent,
+    TechniqueComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +25,8 @@ import { ArmesComponent } from './armes/armes.component';
     RouterModule.forRoot([
       { path: 'magic', component: MagicComponent },
       { path: 'posture', component: PostureComponent},
-      { path: 'arme', component: ArmesComponent}
+      { path: 'arme', component: ArmesComponent},
+      { path: 'technique', component: TechniqueComponent}
     ])
   ],
   providers: [],
