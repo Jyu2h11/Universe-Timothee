@@ -23,9 +23,9 @@
     </nav>
     <div class="just-all">
         <section id="infanterie">
-            <h1> Postures d'infanterie</h1>
+            <h1>Postures à pied</h1>
             <section id="infant-corps">
-                <h2>Combat au corps à corps</h2>
+                <h2>Corps à corps</h2>
                 <div>
                     <img class="ph" src="assets/postures/Posture_Offensif.png">&nbsp;<u>Offensif</u> : Bonus de 10 à tous les jets d'attaques, permet la charge, malus de 10 à la parade
                     et à l'esquive, plus 1 aux dégâts.
@@ -36,7 +36,7 @@
                 </div>
             </section>
             <section id="infant-distance">
-                <h2>Combat à distance</h2>
+                <h2>Arme à distance</h2>
                 <div>
                     <img class="ph" src="assets/postures/Posture_escarmouche.png">&nbsp;<u>Escarmouche</u> : Bonus de 10 à l'esquive, malus de 10 pour être touché par les attaques
                     d'opportunités, malus de 5 à l'attaque.
@@ -46,7 +46,7 @@
                 </div>
             </section>
             <section id="infant-magie">
-                <h2>Utlisateurs de magie</h2>
+                <h2>Magie</h2>
                 <div>
                     <img class="ph" src="assets/postures/Posture_furie-magique.png">&nbsp;<u>Furie magique</u> : Bonus de 10 aux jets de magie, bonus de 1 aux dégâts/soins/pvs de bouclier,
                     -10 parade/esquive.
@@ -59,11 +59,11 @@
         </section>
 
         <section id="cavalerie">
-            <h1>Postures de cavalerie</h1>
+            <h1>Postures montée terrestres</h1>
             <section id="caval-corps">
-                <h2>Combat au corps à corps</h2>
+                <h2>Corps à corps</h2>
                 <div>
-                    <u>Charge</u> : Ajoute un D4+le nombre de point de défense de l'armure aux dégâts, donne +15 pour
+                    <img class="ph" src="assets/postures/Posture_charge.png">&nbsp;<u>Charge</u> : Ajoute un D4+le nombre de point de défense de l'armure aux dégâts, donne +15 pour
                     charger et +5 pour toucher. Les ennemis sur la route de la charge subissent un D4+le nombre de point
                     de défense de l'armure du cavalier (ne peut augmenter). Parade et esquive impossible, -1 à la
                     défense et à la résistance.
@@ -73,30 +73,55 @@
                 </div>
             </section>
             <section id="caval-distance">
-                <h2>Combat à distance</h2>
+                <h2>Arme à distance</h2>
                 <div>
-                    <u>Tir en cercle</u> : Bonus de 2 aux dégâts, bonus de 10 à l'esquive, malus de 5 pour toucher. Le
-                    joueur ne peut se déplacer librement dans cette posture et elle ne peut être maintenue pour plus de
-                    3 tours.
+                    <img class="ph" src="assets/postures/Posture_tir-de-charge.png">&nbsp;<u>Tir de charge</u> : Impose d’avancer d’au moins 2 mètres en tirant. Bonus de 2 aux dégâts. Bonus de 10 à la parade et à l’esquive. Malus de 10 au tir.
+                </div>
+                <div>
+                    <img class="ph" src="assets/postures/Posture_tir-statique.png">&nbsp;<u>Tir statique</u> : Bonus de 10 au tir. +1 à la pénétration d’armure. Bonus de 5 à la parade. Esquive impossible (sauf si la monture est indiquée comme agile).
+                </div>
+                <div>
+                    <img class="ph" src="assets/postures/Posture_tir-de-recul.png">&nbsp;<u>Tir de recul</u> : Permet de bouger après un tir. Bonus de 10 à la parade et à l’esquive. Malus de 10 au tir.
                 </div>
             </section>
             <section id="caval-magie">
-                <h2>Utilisateurs de magie</h2>
+                <h2>Magie</h2>
                 <div>
-                    <u>Défenseur</u> : +1 à la défense et à la résistance des alliés adjacents et 1 pv soigné par tour
-                    (joueur exclus, non cumulable). -5 pour lancer des sorts.
+                    <img class="ph" src="assets/postures/Posture_assaut-magique.png">&nbsp;<u>Assaut magique</u> :Bonus de 5 pour toucher. Bonus de 5 à la parade et à l’esquive. Permet de bouger après une attaque.
                 </div>
                 <div>
-                    <u>Mobilité exceptionnelle</u> : Permet de lancer deux sorts le même tour (le deuxième doit coûter
-                    moins de mana que le premier), -10 pour lancer des sorts.
+                    <img class="ph" src="assets/postures/Posture_soutien-magique.png">&nbsp;<u>Soutien magique</u> : Bonus de 1 à la régénération de mana. Bonus d’un D4 aux soins, barrières et soin de moral. Inflige 2 dégâts en moins.
                 </div>
             </section>
-            <section id="caval-hybride">
-                <h2>Combat hybride</h2>
+        </section>
+
+        <section id="cavalerie">
+            <h1>Postures montée volantes</h1>
+            <section id="caval-corps">
+                <h2>Corps à corps</h2>
                 <div>
-                    <u>Harcèlement</u> : Malus de 2 aux dégâts, donne un malus de 5 dans toutes les stats à l'ennemi
-                    touché et un malus de 1 aux dégâts. Le joueur s'il se fait attaquer subi un D4 de dégât en plus.
-                    Bonus de 5 à l'esquive.
+                    <img class="ph" src="assets/postures/Posture_pique.png">&nbsp;<u>Piqué</u> : Bonus de 10 pour la charge et l’attaque. Ajoute la valeur de défense de l’armure et de la monture aux dégâts. Inflige un D4 de dégâts au moral de la cible. Malus de 15 à la parade, esquive impossible. Ne peut que viser des cibles terrestres.
+                </div>
+                <div>
+                    <img class="ph" src="assets/postures/Posture_combat_aerien.png">&nbsp;<u>Combat céleste</u> : Charge possible. Bonus de 1 à la défense et à la résistance. Bonus de 5 à la parade et à l’esquive. Les attaques d’ennemis au sol ignorent l’armure du joueur ou de sa monture. Peut bouger après une attaque. Peut bouger après une attaque. Ne peut que viser des cibles aériennes.
+                </div>
+            </section>
+            <section id="caval-distance">
+                <h2>Arme à distance</h2>
+                <div>
+                    <img class="ph" src="assets/postures/Posture_soutien-aerien.png">&nbsp;<u>Soutien aérien</u> : Bonus de 10 pour toucher. Bonus de 1 aux dégâts. Inflige un D4 de dégât au moral de la cible. Malus de 10 à la parade et à l’esquive. Peut bouger après une attaque. Ne peut que viser des cibles terrestres.
+                </div>
+                <div>
+                    <img class="ph" src="assets/postures/Posture_superiorite-aerienne.png">&nbsp;<u>Supériorité aérienne</u> : Bonus de 2 aux dégâts. Bonus de 10 à la parade et à l’esquive. Malus de 2 à l’armure. Peut bouger après une attaque. Ne peut que viser des cibles aériennes.
+                </div>
+            </section>
+            <section id="caval-magie">
+                <h2>Magie</h2>
+                <div>
+                    <img class="ph" src="assets/postures/Posture_bombardement.png">&nbsp;<u>Bombardement</u> : Bonus de 1 aux dégâts/soins/barrières/soins de moral. Bonus de 1 à la régénération de mana. Inflige un D4 au moral de la/les cible(s). Malus de 10 à l’esquive. Ne peut que viser des cibles terrestres.
+                </div>
+                <div>
+                    <img class="ph" src="assets/postures/Posture_grace-aerienne.png">&nbsp;<u>Grâce aérienne</u> : Bonus de 15 à la parade/esquive. Bonus de 5 pour toucher. Malus de 2 aux dégâts/soins/barrières/soins de moral. Peut bouger après une attaque. Ne peut que viser des cibles aériennes.
                 </div>
             </section>
         </section>
